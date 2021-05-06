@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100%;
+    background-color: antiquewhite;
+    margin: 100px;
+}
+#header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    font: normal 15px "Arial";
+    color: antiquewhite;
+    background-color: rgb(9, 129, 25);
+    text-align: center;
+}
+article{
+    padding: 10em;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: center;
+}
+#mainText{
+    line-height: 10px;
+    padding-top: 100px;
+}
+nav a:link{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav> ul{
+    display: inline;
+    padding:0;
+}
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 px;
+    padding: 10px;
+}
+.pageBanner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    color: green;
+}
+/* index */
+#henry-photo{
+    padding: 10px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#description{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border: solid 1px green;
+    padding: 10px;
+}
+/* Curretnly Planted Page */
+.columns{
+    float: right;
+}
+.planted{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card img{
+    width:50%;
+}
+.card .title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    text-align: right;
+}
+.card{
+    width: 250px ;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: solid 1px green;
+}
+/* Soil Calculations Page */
+fieldset{
+    border-color: green;
+}
+fieldset>legend{
+    font-weight: bold;
+}

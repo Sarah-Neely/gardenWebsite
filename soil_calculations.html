@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>Soil Calculations</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li> <a href= "./index.html"> Home Page </a>  </li>
+                <li> <a href= "./currently-planted.html"> Currently Planted </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mainText">
+        <h1 class="pageBanner"> Soil Calulations</h1>
+        <div class="container">
+            <p id="soilSummary">
+            Due to the dry climate of southern Arizona, it can be helpful to plant a garden in raised beds. These can be constructed with some 2x4s 
+            and filled in with soil and compost from the garden center. <br>
+            Use the form below to find out how many cubic feet of soil you would need to fill in a rectangular bed!
+            </p>
+        </div>
+
+        <fieldset>
+            <legend>Calculate Soil Volume </legend>
+        <div class="container">
+            <form>
+                <input type="number", id="garden-length", name="garden-length">Length (ft)
+                <input type="number", id="garden-width", name="garden-width">Width (ft)
+                <input type="number", id="garden-height", name="garden-height">Height (ft)
+                <button id="calculate" onclick="calculateSoilVolume()">Calculate </button>
+            </form> 
+        </div>
+        <div class="container"> 
+        Total Soil Volume Required (cubic feet): <p id="totalSoilVolume"> </p>
+        </div>
+    </fieldset>
+    </main>
+    <script src = 'soil_calculations.js'> </script>
+</body>
+
+</html>
